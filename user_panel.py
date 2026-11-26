@@ -52,7 +52,7 @@ def print_receipt(order, battery_used, remaining_battery, updated_balance):
 
 # Member 1
 def rent_scooter(vehicles, current_user, all_orders):
-    show_cars_catalog(vehicles)
+    show_scooters_catalog(vehicles)
     process_rental(vehicles, current_user, all_orders, Scooter)
 
 
